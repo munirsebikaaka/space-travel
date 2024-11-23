@@ -1,12 +1,9 @@
-import FirstDestination from "./destinationOne";
-import SecondDestination from "./destinationTwo";
-import ThirdDestination from "./destinationThree";
+import { Outlet } from "react-router-dom";
+
 const AllDestinations = () => {
   return (
     <div>
-      <FirstDestination />
-      <SecondDestination />
-      <ThirdDestination />
+      <Outlet />
     </div>
   );
 };
